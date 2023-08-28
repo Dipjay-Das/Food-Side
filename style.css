@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:300;400;500;600;700;800;&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Lobster+Two:500;&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-X: hidden;
+
+}
+
+a {
+    color: #A82C48 !important;
+    font-size: 1.1em !important;
+}
+
+a:hover {
+    color: #4b5fcf !important;
+}
+
+.main-btn {
+    background: #A82C48;
+    color: #fff;
+    width: 150px;
+    height: 45px;
+    border: none;
+    outline: none;
+}
+
+.main-btn:hover {
+    background-color: #fff;
+    border: 2px solid #A82C48;
+    color: #A82C48;
+}
+
+
+.navigation-wrap {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 99;
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    background-color: #FFF;
+}
+
+.navigation-wrap .nav-item {
+    transition: all 200ms linear;
+}
+
+.navbar-toggler:focus {
+    outline: unset;
+    border: unset;
+    box-shadow: none;
+}
+
+.top-banner {
+    width: 100%;
+    background: url("bg-1.JPG") no-repeat center;
+    object-fit: cover;
+    padding: 19rem 0 24.1rem;
+}
+
+.top-banner h1 {
+    font-size: 3rem;
+    font-family: 'Mukta', sans-serif;
+    color: #43121d;
+    text-align: left;
+}
+
+.top-banner p {
+    width: 96%;
+    font-weight: 400;
+    font-family: 'Mukta', sans-serif;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: #43121d;
+}
+
+.red-btn {
+    background: #A82C48;
+    color: #fff;
+    width: 150px;
+    height: 45px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 2px 8px 2px #74242450;
+}
+
+.white-btn {
+    background: #fff;
+    color: #000;
+    width: 150px;
+    height: 45px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 2px 8px 2px #0000002c;
+}
+
+.counter-section {
+    background-color: #A82C48;
+    color: #fff;
+    padding: 2.5rem 0;
+}
+
+.counter-section p {
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.counter-section span {
+    font-size: 3rem;
+}
+
+.card-details h2 {
+    font-size: 2rem;
+    font-family: 'Baloo 2', cursive;
+    color: #43121d;
+    text-align: left;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.card-details p {
+    font-weight: 400;
+    font-family: 'Mukta', sans-serif;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: #635f60;
+    margin-top: 15px;
+}
+
+.card-details .main-btn {
+    width: 110px;
+    height: 40px;
+    padding-bottom: 4px;
+    margin-top: 15px;
+}
+
+.food-wrapper h2 {
+    font-size: 2rem;
+    font-family: 'Baloo 2', cursive;
+    color: #43121d;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.food-wrapper p {
+    font-weight: 400;
+    font-family: 'Mukta', sans-serif;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: #635f60;
+    margin-top: 15px;
+}
+
+.explore-card img {
+    border-radius: 20px;
+}
+
+.explore-card h4 {
+    font-size: 1.2rem;
+    font-family: 'Baloo 2', cursive;
+    color: #43121d;
+}
+
+.explore-card span {
+    display: block;
+    font-size: 1.5rem;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 600;
+    color: #A82C48;
+    border-bottom: 1px solid #eee;
+}
+
+.explore-card span del {
+    color: #858383;
+    padding-left: 10px;
+}
+
+.explore-card .main-btn {
+    width: 110px;
+    height: 40px;
+    padding-bottom: 4px;
+    margin-top: 15px;
+}
+
+.wrapper {
+    padding-top: 100px !important;
+}
+
+.carousel {
+    padding: 10% 0;
+}
+
+
+.carousel-item p {
+    font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #635f60;
+}
+
+.carousel-item h5 {
+    font-size: 1rem;
+    font-family: 'Baloo 2', cursive;
+    color: #A82C48;
+}
+
+.review-wrapper {
+    background-color: #A82C48;
+}
+
+.carousel-item img {
+    width: 15% !important;
+    border-radius: 50%;
+}
+
+.white-box {
+    border-radius: 20px;
+}
+
+.rev-heading h2 {
+    font-family: 'Baloo 2', cursive;
+    font-weight: 600;
+}
+
+.review-wrapper .carousel-indicators button {
+    width: 15px;
+    height: 15px;
+    outline: none;
+    border-radius: 50%;
+    border: none;
+    margin-right: 1rem;
+    opacity: 0.2;
+}
+
+.review-wrapper .carousel-indicators button.active {
+    opacity: 1;
+}
+
+.faq-wrapper h2 {
+    font-family: 'Baloo 2', cursive;
+    font-weight: 600;
+    color: #43121d;
+    text-transform: capitalize;
+}
+
+.faq-wrapper h4 {
+    font-family: 'Baloo 2', cursive;
+    color: #43121d;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+}
+
+.faq-wrapper p {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: #635f60;
+}
+
+.news-wrap {
+    background-color: #d1d1d1;
+}
+
+.news-wrap .container {
+    border-radius: 15px;
+}
+
+.news-wrap h3 {
+    text-transform: capitalize;
+    font-family: 'Baloo 2', cursive;
+    font-weight: 600;
+    color: #43121d;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+
+.news-wrap p {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color: #635f60;
+}
+
+.news-wrap input {
+    border: 2px solid #635f60;
+    border-radius: 0 !important;
+}
+
+.news-wrap input::placeholder {
+    color: #635f60;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: .9rem;
+}
+
+.news-wrap .btn {
+    border: none;
+    background-color: #A82C48;
+    padding: 10px 20px;
+}
+
+@media (max-width:1199px) {
+    .card-details h2 {
+        font-size: 1.5rem;
+    }
+}
+
+
+@media (max-width:991px) {
+    .navigation-wrap .navbar-brand img {
+        height: 3.8125rem;
+    }
+
+    .navigation-wrap {
+        text-align: center;
+    }
+
+    .navigation-wrap .nav-link {
+        line-height: 1.875rem;
+    }
+
+    .top-banner h1 {
+        font-size: 2.7rem;
+    }
+
+    .navigation-wrap img {
+        height: 70px;
+    }
+
+    .card-details h2 {
+        font-size: 1.3rem;
+    }
+
+    .about-section {
+        padding-top: 100px !important;
+    }
+}
+
+@media (max-width:575px) {
+    .white-btn {
+        margin-top: 15px;
+    }
+
+    .carousel-item p {
+        font-size: 1.1rem;
+
+    }
+
+    .news-wrap input {
+        display: block;
+    }
+
+    .news-wrap {
+        background-color: #fff;
+    }
+
+    .news-wrap .btn {
+        margin-left: 30%;
+    }
+
+}
